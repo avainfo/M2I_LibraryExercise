@@ -4,7 +4,7 @@ namespace Library;
 
 public class LibraryManager
 {
-    private List<Book> books;
+    public List<Book> books;
 
     public LibraryManager()
     {

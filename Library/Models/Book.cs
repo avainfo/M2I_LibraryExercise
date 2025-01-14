@@ -6,7 +6,7 @@ public class Book
     public string Author { get; set; }
     public bool Available { get; set; }
 
-    public Book(string title, string author, bool available = true)
+    public Book(string title, string author, bool available = false)
     {
         Title = title;
         Author = author;
